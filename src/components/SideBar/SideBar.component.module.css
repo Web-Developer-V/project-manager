@@ -1,0 +1,79 @@
+aside {
+  background-color: #222;
+  width: 100%;
+  height: calc(100vh - 100px);
+  max-width: 320px;
+  margin-top: 100px;
+  border-radius: 0 20px 0 0;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-border-radius: 0 20px 0 0;
+  -moz-border-radius: 0 20px 0 0;
+  -ms-border-radius: 0 20px 0 0;
+  -o-border-radius: 0 20px 0 0;
+}
+aside .aside-tit {
+  font-size: 20px;
+  color: #ebebe4;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+}
+aside .aside-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #535353;
+  color: #ebebe4;
+  cursor: pointer;
+  border: none;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+aside .aside-btn:hover {
+  background-color: #424242;
+}
+aside .project-list-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  width: 100%;
+  height: 100%;
+  margin: 30px 0;
+  max-height: calc(100% - 133px);
+  padding: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+aside .project-list-box > div > div {
+  padding-right: 20px;
+}
+aside .project-list-box li {
+  list-style: none;
+  color: #ebebe4;
+}
+aside .project-list-box li button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 38px;
+  background-color: transparent;
+  text-align: left;
+  border-style: none;
+  color: #ebebe4;
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+aside .project-list-box li button:hover {
+  background-color: #424242;
+}

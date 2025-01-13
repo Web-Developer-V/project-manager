@@ -1,0 +1,39 @@
+.project-wrapper {
+  display: flex;
+}
+.project-wrapper .NoProject-list-container figure {
+  height: 80px;
+}
+.project-wrapper .NoProject-list-container figure img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.project-wrapper .NoProject-list-container h1 {
+  margin: 20px 0 0 0;
+}
+.project-wrapper .NoProject-list-container p {
+  margin: 20px 0 0 0;
+}
+.project-wrapper .NoProject-list-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #222222;
+  color: #ebebe4;
+  cursor: pointer;
+  border: none;
+  padding: 0 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.project-wrapper .NoProject-list-container button:hover {
+  background-color: rgba(34, 34, 34, 0.9);
+}

@@ -1,0 +1,28 @@
+/* ********** 레이아웃 ********** */
+body {
+  font-family: "Noto Sans KR", "Roboto", serif;
+}
+
+/* ********** 커스텀 스크롤 바 ********** */
+.scrollbar-track {
+  background: rgb(211 211 211 / 50%);
+}
+
+.scrollbar-thumb {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  background: rgb(119 119 119 / 75%);
+}
+
+/* *********** 공통 ********** */
+/* 프로젝트 리스트 */
+.cm-project-list-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 320px);
+}
